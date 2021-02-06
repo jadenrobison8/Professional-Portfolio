@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: rgb(2, 2, 68);
-    --secondary-color: rgb(56, 56, 136);
-    --tertiary-color: rgb(219, 219, 248);
+    --primary-color: rgb(247, 206, 203);
+    --secondary-color: rgb(163, 45, 45);
+    --tertiary-color: rgb(185 185 187);
 }
 
 header {
@@ -16,9 +16,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky; 
+    /*position: -webkit-sticky; 
     position: sticky;
-    top: 0;
+    top: 0;*/
     background-image: url("../images/tractor.jpg");
     background-size: cover;
     background-position: 80%;
@@ -69,15 +69,42 @@ section {
     padding: 60px;
 }
 
+
 /*Hero style*/
 .hero {
     background-image: url(../images/tractor.jpg);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
 }
 /*Hero style end*/
+
+/*about me*/
+.about-me{
+    background-color: var(--tertiary-color);
+}
 
 
 /*work style*/
 .run-buddy {
-    background-image: url("../images/run-buddy-img.png");
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--tertiary-color);
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+.run-buddy-info {
+    background-color: var(--tertiary-color);
+    width: 100px;
+    height: 50px;
+    border-right:rgb(163, 45, 45);
 }
 /*work style end*/
