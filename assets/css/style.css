@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: rgb(247, 206, 203);
-    --secondary-color: rgb(163, 45, 45);
-    --tertiary-color: rgb(185 185 187);
+    --primary-color: rgb(199, 194, 194);
+    --secondary-color: rgb(185 185 187);
+    --tertiary-color: rgb(248, 120, 88);
 }
 
 header {
@@ -16,9 +16,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*position: -webkit-sticky; 
-    position: sticky;
-    top: 0;*/
     background-image: url("../images/tractor.jpg");
     background-size: cover;
     background-position: 80%;
@@ -66,7 +63,7 @@ header nav ul li a:hover {
 }
 
 section {
-    padding: 60px;
+    padding: 20px;
 }
 
 
@@ -80,31 +77,102 @@ section {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
+    height: 100px;
 }
 /*Hero style end*/
 
+.text {
+    margin:auto;
+}
+
+.work {
+    padding: 10px 20px 20px 0px;
+    background-color: var(--primary-color);
+    display: inline-flex;
+    justify-content: flex-start;
+    width: -webkit-fill-available;
+}
+
+.content {
+    padding: 20px; 
+    margin:auto;
+}
+
 /*about me*/
-.about-me{
-    background-color: var(--tertiary-color);
+.about-me {
+    padding: 10px 20px 20px 0px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.section-title {
+    padding: 0px 20px 30px 200px;
+    border-right: 5px solid black;
+    font-size: 48px;
+    color: #616f77;
+    text-align: center;
+    margin: 20px;
 }
 
 
 /*work style*/
+
 .run-buddy {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    border: 1px solid var(--tertiary-color);
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    background-attachment: fixed;
+    margin:auto;
+    position:relative;
+    padding: 10px;
+    border: 10px solid var(--primary-color);
+    background-color: var(--tertiary-color);
 }
 
 .run-buddy-info {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
     background-color: var(--tertiary-color);
+    color: #616f77;
     width: 100px;
-    height: 50px;
-    border-right:rgb(163, 45, 45);
+    height: 60px;
+    text-align: center;
+    margin:auto;
+}
+
+.robot-gladiators {
+    margin:auto;
+    position:relative;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+    border: 10px solid var(--primary-color);
+}
+
+.robot-gladiators-info {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    background-color: var(--tertiary-color);
+    color: #616f77;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin:auto;
 }
 /*work style end*/
+
+/*
+img {
+    color: var(--primary-color);
+    opacity: .6;
+}
+*/
+/*footer*/
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*footer*/
