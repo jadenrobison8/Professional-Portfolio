@@ -8,7 +8,7 @@ A website that showcases my work, and information
 * CSS
 
 ## Website
-https://jadenrobison8.github.io/professional-portfolio
+https://jadenrobison8.github.io/Professional-Portfolio/
 
 ## Contribution
 Made with ❤️ by Jaden Robison
