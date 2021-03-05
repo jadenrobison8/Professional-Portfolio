@@ -184,18 +184,9 @@ section {
     margin:auto;
 }
 
-.row1 {
-    display: flex;
-    justify-content: space-between;
-}
+
 /*work style end*/
 
-/*
-img {
-    color: var(--primary-color);
-    opacity: .6;
-}
-*/
 
 .contact {
     display: inline-flex;
