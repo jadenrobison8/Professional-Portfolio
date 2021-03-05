@@ -143,6 +143,7 @@ section {
     height: 60px;
     text-align: center;
     margin:auto;
+    align-items: center;
 }
 
 .robot-gladiators {
