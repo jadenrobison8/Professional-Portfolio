@@ -11,6 +11,10 @@
     --tertiary-color: rgb(250, 165, 143);
 }
 
+.hide {
+    display: none;
+}
+
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
